@@ -7,18 +7,11 @@ description: Wherecome to the REITs Chain documentation🚀.
 REITs Chain is the leading blockchain explorer, search, API and analytics platform for RCH Chain . As a means to provide equitable access to blockchain data, we've developed the REITs Chain Developer APIs to empower developers with direct access to REITs Chain 's block explorer data and services via GET/POST requests. REITs Chain 's APIs are provided as a community service and without warranty, so please use what you need and no more.
 
 {% hint style="info" %}
-Source attribution via a backlink or a mention that your app is "Powered by BscScan APIs" is required except for personal/private usage.
+Source attribution via a backlink or a mention that your app is "Powered by REITs Chain APIs" is required except for personal/private usage.
 {% endhint %}
 
 ## API Endpoints
 
 > Your app may need to show a user's RCH balance , check the transaction history of an address 🔍 or get the latest information about a new token and its price💰 .
 
-For that you may find a suitable endpoint from our wide range of APIs that you can simply query to provide data while you remain fully focused on building your applications.&#x20;
-
-
-
-## ~~Support & FAQ~~&#x20;
-
-~~Our curated list of support articles and common questions you may have on topics such as rate limits 🚧 , common error messages ⛔ and API key usage across different networks 🌎 . If your issue is a unique one or you need more clarification, feel free to reach out to us via our support channels.~~
-
+For that you may find a suitable endpoint from our wide range of APIs that you can simply query to provide data while you remain fully focused on building your applications.
