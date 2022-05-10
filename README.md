@@ -15,7 +15,3 @@ Source attribution via a backlink or a mention that your app is "Powered by REIT
 > Your app may need to show a user's RCH balance , check the transaction history of an address 🔍 or get the latest information about a new token and its price💰 .
 
 For that you may find a suitable endpoint from our wide range of APIs that you can simply query to provide data while you remain fully focused on building your applications.
-
-## ~~Support & FAQ~~
-
-~~Our curated list of support articles and common questions you may have on topics such as rate limits 🚧 , common error messages ⛔ and API key usage across different networks 🌎 . If your issue is a unique one or you need more clarification, feel free to reach out to us via our support channels.~~
