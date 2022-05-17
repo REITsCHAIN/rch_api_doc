@@ -1,11 +1,13 @@
 # Table of contents
 
-* [💡 Introduce](README.md)
+## 🌟 Introduce
 
-## API Docments
+* [Hello](README.md)
 
-* [Reference](api-docments/api-reference.md)
-* [Accounts](api-docments/account.md)
-* [Transactions](api-docments/transactions.md)
-* [Contracts & Tokens](api-docments/contracts-and-tokens.md)
-* [Blocks](api-docments/blocks.md)
+## 📖 API Docments
+
+* [Reference](reference/api-reference/README.md)
+* [Accounts](reference/api-reference/account.md)
+* [Contracts & Tokens](api-reference/contracts-and-tokens.md)
+* [Blocks](api-reference/blocks.md)
+* [Transactions](api-reference/transactions.md)
