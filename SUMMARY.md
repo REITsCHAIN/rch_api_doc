@@ -1,8 +1,8 @@
 # Table of contents
 
 * [💡 Introduce](README.md)
-* [🎯 API Reference](api-reference/README.md)
-  * [Accounts](api-reference/account.md)
-  * [Contracts & Tokens](api-reference/contracts-and-tokens.md)
+* [🎯 API Reference](reference/api-reference/README.md)
+  * [Accounts](reference/api-reference/account.md)
   * [Transactions](api-reference/transactions.md)
+  * [Contracts & Tokens](api-reference/contracts-and-tokens.md)
   * [Blocks](api-reference/blocks.md)
