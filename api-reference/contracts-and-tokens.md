@@ -82,3 +82,8 @@ Sample Response
 ```
 {% endtab %}
 {% endtabs %}
+
+### Get RCH-20 Token TotalSupply by Contract Address
+
+Return the total supply of a RCH-20 token
+
