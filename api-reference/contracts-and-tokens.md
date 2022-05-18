@@ -52,9 +52,9 @@ https://explorer.rchapi.com/api/v1
 {% tab title="Request" %}
 Query Parameters
 
-| Parameter | Description                                   | Type   |
-| --------- | --------------------------------------------- | ------ |
-| address   | Required, The contract address of the Token.  | string |
+| Parameter | Description                                      | Type   |
+| --------- | ------------------------------------------------ | ------ |
+| address   | Required, The contract address of the currency.  | string |
 {% endtab %}
 
 {% tab title="Response" %}
@@ -87,116 +87,3 @@ Sample Response
 
 Return the total supply of a RCH-20 token
 
-```
-https://explorer.rchapi.com/api/v1
-?module=token
-&action=totalsupply
-&contract=0xb9bcb70202bd2f79ed8e0b1128a55786020b690a
-```
-
-{% tabs %}
-{% tab title="Request" %}
-Query Parameters
-
-| Parameter | Description                                   | Type   |
-| --------- | --------------------------------------------- | ------ |
-| contract  | Required, The contract address of the Token.  | string |
-{% endtab %}
-
-{% tab title="Response" %}
-Sample Response
-
-```
-{
-    "code": 1,
-    "message": "ok",
-    "data": {
-        "contract": "0xB9bcB70202bD2F79Ed8e0B1128a55786020b690A",
-        "decimal": 18,
-        "result": "0x201a71b6b6b603ffa6f9000"
-    }
-}
-```
-{% endtab %}
-{% endtabs %}
-
-
-
-### Get RCH-20 Token Circulating Supply by Contract Address
-
-Return the Circulating supply of a RCH-20 token
-
-```
-https://explorer.rchapi.com/api/v1
-?module=token
-&action=circulating
-&contract=0xb9bcb70202bd2f79ed8e0b1128a55786020b690a
-```
-
-{% tabs %}
-{% tab title="Request" %}
-Query Parameters
-
-| Parameter | Description                                   | Type   |
-| --------- | --------------------------------------------- | ------ |
-| contract  | Required, The contract address of the Token.  | string |
-{% endtab %}
-
-{% tab title="Response" %}
-Sample Response
-
-```
-{
-    "code": 1,
-    "message": "ok",
-    "data": {
-        "contract": "0xB2d8aE890844F41c6357ee712485911cAA09E034",
-        "decimal": 18,
-        "result": "0x84595161401484a000000"
-    }
-}
-```
-{% endtab %}
-{% endtabs %}
-
-
-
-### Get RCH-20 Token Balance of Given Address by Contract Address
-
-Return the total supply of a RCH-20 token
-
-```
-https://explorer.rchapi.com/api/v1
-?module=token
-&action=tokenbalance
-&contract=0xb9bcb70202bd2f79ed8e0b1128a55786020b690a
-&address=0x
-```
-
-{% tabs %}
-{% tab title="Request" %}
-Query Parameters
-
-| Parameter | Description                                   | Type   |
-| --------- | --------------------------------------------- | ------ |
-| address   | Required, to get balance of the address       | string |
-| contract  | Required, The contract address of the Token.  | string |
-{% endtab %}
-
-{% tab title="Response" %}
-Sample Response
-
-```
-{
-    "code": 1,
-    "message": "ok",
-    "data": {
-        "address": "0x501F8f75Ac7432e7c40712A98a5e37d71341C502",
-        "balance": "0x842147377c1f549100000",
-        "contract": "0xB2d8aE890844F41c6357ee712485911cAA09E034",
-        "decimal": 18
-    }
-}
-```
-{% endtab %}
-{% endtabs %}
