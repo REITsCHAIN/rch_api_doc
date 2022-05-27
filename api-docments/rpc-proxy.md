@@ -15,7 +15,7 @@ For the full documentation of available parameters and descriptions, please visi
 Returns the number of most recent block
 
 ```
-http://192.168.0.154:9091/api/v1
+https://explorer.rchapi.com/api/v1
 ?module=proxy
 &action=rch_blockNumber
 ```
@@ -43,7 +43,7 @@ Sample response
 Returns the block info of the given block number
 
 ```
-http://192.168.0.154:9091/api/v1
+https://explorer.rchapi.com/api/v1
 ?module=proxy
 &action=rch_getBlockByNumber
 &blocknumber=0x234
@@ -88,19 +88,16 @@ Sample response
         "uncles": []
     }
 }
-
 ```
 {% endtab %}
 {% endtabs %}
-
-
 
 ### rch\_getBlockByHash
 
 Returns the block info of the given hash
 
 ```
-http://192.168.0.154:9091/api/v1
+https://explorer.rchapi.com/api/v1
 ?module=proxy
 &action=rch_getBlockByHash
 &hash=0x234
@@ -149,14 +146,12 @@ Sample response
 {% endtab %}
 {% endtabs %}
 
-
-
 ### rch\_getTransactionByHash
 
 Returns the transaction info of the given hash
 
 ```
-http://192.168.0.154:9091/api/v1
+https://explorer.rchapi.com/api/v1
 ?module=proxy
 &action=rch_getTransactionByHash
 &hash=0x234
@@ -199,14 +194,12 @@ Sample response
 {% endtab %}
 {% endtabs %}
 
-
-
 ### rch\_getTransactionReceiptByHash
 
 Returns the receipt transaction info of the given hash
 
 ```
-http://192.168.0.154:9091/api/v1
+https://explorer.rchapi.com/api/v1
 ?module=proxy
 &action=rch_getTransactionReceiptByHash
 &hash=0x234

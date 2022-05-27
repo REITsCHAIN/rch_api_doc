@@ -5,7 +5,7 @@
 Returns the status code of a transaction execution.
 
 ```
-https://api.bscscan.com/api
+https://explorer.rchapi.com/api
    ?module=transaction
    &action=gettxreceiptstatus
    &hash=0xe9975702518c79caf81d5da65dea689dcac701fcdd063f848d4f03c85392fd00
@@ -36,5 +36,5 @@ Sample Response
 {% endtabs %}
 
 {% hint style="info" %}
-:book: **Tip:** The `status` field returns -1 for **failed transactions** and `1` for **successful transactions**  2 for **pending transactions(12 blocks confirms).**&#x20;
+:book: **Tip:** The `status` field returns -1 for **failed transactions** and `1` for **successful transactions** 2 for **pending transactions(12 blocks confirms).**
 {% endhint %}
