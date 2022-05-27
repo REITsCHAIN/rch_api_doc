@@ -6,7 +6,6 @@
 
 ## 📖 API Docments
 
-* [Reference](reference/api-reference/README.md)
 * [Accounts](reference/api-reference/account.md)
 * [Contracts & Tokens](api-reference/contracts-and-tokens.md)
 * [Blocks](api-reference/blocks.md)
